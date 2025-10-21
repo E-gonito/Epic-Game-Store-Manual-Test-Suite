@@ -3,22 +3,10 @@
 ## Table of Contents
 
 1. [Introduction](#10-introduction)
-
-   * [Project Deliverables](#11-project-deliverables)
-   * [Skills Demonstrated](#12-skills-demonstrated)
 2. [Scope](#20-scope)
-
-   * [In-Scope Features](#21-in-scope-features)
-   * [Out-of-Scope Features](#22-out-of-scope-features)
 3. [Objectives](#30-objectives)
 4. [Test Strategy](#40-test-strategy)
-
-   * [Methodologies](#41-methodologies)
-   * [Tools](#42-tools)
 5. [Entry & Exit Criteria](#50-entry--exit-criteria)
-
-   * [Entry Criteria](#51-entry-criteria)
-   * [Exit Criteria](#52-exit-criteria)
 6. [Results Summary](#60-results-summary)
 7. [Learning Reflection](#70-learning-reflection)
 
