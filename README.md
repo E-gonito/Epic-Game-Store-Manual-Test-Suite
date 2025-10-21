@@ -1,7 +1,20 @@
 # Epic Game Store Manual Test Suite
 
 ## 1.0. Introduction
-This README contains the test plan for a comprehensive manual test suite of the [Epic Game Store web client](https://store.epicgames.com/en-US). The objective is to verify the functionality of the web client's core user-facing features and document the whole process. 
+This README contains the test plan for a comprehensive manual test suite of the [Epic Game Store web client](https://store.epicgames.com/en-US), a complex, real-world video game digital distribution service. The objective is to verify the functionality of the web client's core user-facing features and professionally document the whole process. 
+
+### 1.1. Project Deliverables
+- Test Case Suite: 
+- Defect Management Board: 
+- API Test Collection: 
+
+### 1.2. Skills Demonstrated
+- Test Planning & Strategy
+- Test Case Design (including Black-Box Techniques)
+- Defect Reporting & Triage (Jira)
+- Foundational API Validation (Postman)
+- Static & Dynamic Testing Methodologies
+- Git & GitHub for Documentation Version Control
 
 ## 2.0. Scope
 ### 2.1. In-Scope Features
@@ -11,7 +24,7 @@ This test plan covers the following features on the Epic Game Store website:
   - User registration, login, logout, profile updates, and viewing purchase history.
   
 - **Storefront Navigation:**
-  - Browsing the store, searching for products, and applying search filters (e.g., price, genre).
+  - Browsing the store, searching for products, and applying search filters.
   
 - **Product Discovery:**
   - Viewing individual game product pages and system requirements.
@@ -21,15 +34,12 @@ This test plan covers the following features on the Epic Game Store website:
   
 - **Library Management:**
   - Viewing and managing owned games in the user's web-based library.
-  
-- **Support Interface:**
-  - Navigating to and using the "Contact Support" flows.
 
 ### 2.2. Out-of-Scope Features
 This plan will not cover the following:
 
 - **Paid Transactions:**
-  - The final step of any checkout flow that requires a real payment instrument (e.g., credit card, PayPal) is explicitly out-of-scope to avoid incurring costs.
+  - The final step of any checkout flow that requires a real payment instrument is explicitly out-of-scope to avoid incurring costs.
 
 - **Native Desktop Client:**
   - The downloadable Epic Games Launcher, its installation, performance, and features are not under test.
@@ -38,7 +48,7 @@ This plan will not cover the following:
   - All sections related to the Unreal Engine, creator portals, and game development are out-of-scope.
 
 - **Specific Game Content:**
-  - In-game functionality, specific game pages (e.g., Fortnite, Fall Guys), and community/news sections are not part of this test.
+  - In-game functionality and community/news sections are not part of this test.
 
 - **Non-Functional Testing:**
   - All forms of non-functional testing, including load, stress, performance, and backend server testing, are out-of-scope.
@@ -49,7 +59,7 @@ This plan will not cover the following:
 
 - **Storefront Navigation:** To validate that a user can easily discover products through browsing, searching, and filtering.
 
-- **Purchase Flow:** To verify that a user can successfully acquire a free game, and that the game is correctly granted to their account (entitlement).
+- **Purchase Flow:** To verify that a user can successfully acquire a free game, and that the game is correctly granted to their account.
 
 ## 4.0. Test Strategy 
 
@@ -58,14 +68,14 @@ This project will employ a hybrid testing approach:
 
 - Scripted Testing: A comprehensive suite of formal test cases will be designed and executed to ensure full coverage of all in-scope functional requirements.
 
-- Exploratory Testing: Unscripted, time-boxed testing sessions will be conducted to investigate high-risk areas (like the checkout and account flows) to find defects that may be missed by scripted tests.
+- Exploratory Testing: Unscripted, time-boxed testing sessions will be conducted to investigate high-risk areas to find defects that scripted tests may miss.
 
 ### 4.2. Tools
-**GitHub:** Used for version control of all test documentation, including this plan and the manual test cases.
+- **GitHub:** Used for version control of all test documentation, including this plan and the manual test cases.
 
-**Jira**: Used as the primary tool for defect management, including writing, tracking, and prioritising all bug reports.
+- **Jira**: Used as the primary tool for defect management, including writing, tracking, and prioritising all bug reports.
 
-**Postman:** Used to conduct foundational API validation by inspecting GET requests to validate data fetched by the storefront.
+- **Postman:** Used to conduct foundational API validation by inspecting GET requests to validate data fetched by the storefront.
 
 ## 5.0. Entry & Exit Criteria  
 
@@ -81,6 +91,6 @@ This manual testing project (Portfolio Project 1) will be considered complete wh
 
 - 100% of all planned manual test cases have been executed.
 
-- All discovered defects (bugs) have been documented and reported in the Jira project board.
+- All discovered defects have been documented and reported in the Jira project board.
 
-- There are no open defects with a 'Critical' or 'Blocker' priority.
+- There are no open defects with a 'Critical' priority.
