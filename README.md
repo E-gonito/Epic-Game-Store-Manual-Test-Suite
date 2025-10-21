@@ -1,5 +1,27 @@
 # Epic Game Store Manual Test Suite
 
+## Table of Contents
+
+1. [Introduction](#10-introduction)
+
+   * [Project Deliverables](#11-project-deliverables)
+   * [Skills Demonstrated](#12-skills-demonstrated)
+2. [Scope](#20-scope)
+
+   * [In-Scope Features](#21-in-scope-features)
+   * [Out-of-Scope Features](#22-out-of-scope-features)
+3. [Objectives](#30-objectives)
+4. [Test Strategy](#40-test-strategy)
+
+   * [Methodologies](#41-methodologies)
+   * [Tools](#42-tools)
+5. [Entry & Exit Criteria](#50-entry--exit-criteria)
+
+   * [Entry Criteria](#51-entry-criteria)
+   * [Exit Criteria](#52-exit-criteria)
+6. [Results Summary](#60-results-summary)
+7. [Learning Reflection](#70-learning-reflection)
+
 ## 1.0. Introduction
 This README contains the test plan for a comprehensive manual test suite of the [Epic Game Store web client](https://store.epicgames.com/en-US), a complex, real-world video game digital distribution service. The objective is to verify the functionality of the web client's core user-facing features and professionally document the whole process. 
 
@@ -14,6 +36,7 @@ This README contains the test plan for a comprehensive manual test suite of the 
 - Defect Reporting & Triage (Jira)
 - Foundational API Validation (Postman)
 - Static & Dynamic Testing Methodologies
+- Functional & Exploratory Testing
 - Git & GitHub for Documentation Version Control
 
 ## 2.0. Scope
@@ -94,3 +117,9 @@ This manual testing project (Portfolio Project 1) will be considered complete wh
 - All discovered defects have been documented and reported in the Jira project board.
 
 - There are no open defects with a 'Critical' priority.
+
+## 6.0. Results Summary
+
+## 7.0. Learning Reflection
+
+
