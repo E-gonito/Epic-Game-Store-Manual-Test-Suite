@@ -1,9 +1,9 @@
 # Epic Game Store Manual Test Suite
 
-## 1.0 Introduction
+## 1.0. Introduction
 This README contains the test plan for a comprehensive manual test suite of the [Epic Game Store web client](https://store.epicgames.com/en-US). The objective is to verify the functionality of the web client's core user-facing features and document the whole process. 
 
-## 2.0 Scope
+## 2.0. Scope
 ### 2.1. In-Scope Features
 This test plan covers the following features on the Epic Game Store website:
 
@@ -43,7 +43,7 @@ This plan will not cover the following:
 - **Non-Functional Testing:**
   - All forms of non-functional testing, including load, stress, performance, and backend server testing, are out-of-scope.
 
-## 3.0 Objectives
+## 3.0. Objectives
 
 - **Account Management:** To ensure a user can securely authenticate, manage their account details, and that all data changes are reflected accurately.
 
@@ -51,6 +51,36 @@ This plan will not cover the following:
 
 - **Purchase Flow:** To verify that a user can successfully acquire a free game, and that the game is correctly granted to their account (entitlement).
 
-## Test Strategy 
+## 4.0. Test Strategy 
 
-## Entry & Exit Criteria  
+### 4.1. Methodologies
+This project will employ a hybrid testing approach:
+
+- Scripted Testing: A comprehensive suite of formal test cases will be designed and executed to ensure full coverage of all in-scope functional requirements.
+
+- Exploratory Testing: Unscripted, time-boxed testing sessions will be conducted to investigate high-risk areas (like the checkout and account flows) to find defects that may be missed by scripted tests.
+
+### 4.2. Tools
+**GitHub:** Used for version control of all test documentation, including this plan and the manual test cases.
+
+**Jira**: Used as the primary tool for defect management, including writing, tracking, and prioritising all bug reports.
+
+**Postman:** Used to conduct foundational API validation by inspecting GET requests to validate data fetched by the storefront.
+
+## 5.0. Entry & Exit Criteria  
+
+### 5.1. Entry Criteria
+Test execution may not begin until the following criteria are met:
+
+- This Test Plan document has been written and formally reviewed.
+
+- All manual test cases for the in-scope features have been written and reviewed for clarity, accuracy, and coverage.
+
+### 5.2. Exit Criteria
+This manual testing project (Portfolio Project 1) will be considered complete when the following criteria are met:
+
+- 100% of all planned manual test cases have been executed.
+
+- All discovered defects (bugs) have been documented and reported in the Jira project board.
+
+- There are no open defects with a 'Critical' or 'Blocker' priority.
