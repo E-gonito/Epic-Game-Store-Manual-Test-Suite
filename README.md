@@ -1,5 +1,9 @@
 # Epic Game Store Manual Test Suite
 
+![Status](https://img.shields.io/badge/status-in_progress-orange)
+![Tools](https://img.shields.io/badge/tools-Jira%20|%20Postman%20|%20GitHub-blue)
+
+
 ## Table of Contents
 
 1. [Introduction](#10-introduction)
