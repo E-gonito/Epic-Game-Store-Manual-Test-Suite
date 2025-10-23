@@ -19,7 +19,7 @@ This README contains the test plan for a comprehensive manual test suite of the 
 
 ### 1.1. Project Deliverables
 - Test Case Suite: 
-- Defect Management Board: 
+- Defect Management Board: [Jira Board](https://errolgonito.atlassian.net/jira/software/projects/EGS/boards/1?atlOrigin=eyJpIjoiNzRkZWQ1MWJmZDBhNGRiN2JkZjIzOTVhNWIxOWVkZTciLCJwIjoiaiJ9) 
 - API Test Collection: 
 
 ### 1.2. Skills Demonstrated
