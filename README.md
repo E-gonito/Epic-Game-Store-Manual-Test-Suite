@@ -46,9 +46,6 @@ This test plan covers the following features on the Epic Game Store website:
   
 - **Purchase Flow:**
   - Managing the Wishlist, adding items to the Cart, and completing the checkout process using only free-to-play games.
-  
-- **Library Management:**
-  - Viewing and managing owned games in the user's web-based library.
 
 ### 2.2. Out-of-Scope Features
 This plan will not cover the following:
@@ -58,6 +55,9 @@ This plan will not cover the following:
 
 - **Native Desktop Client:**
   - The downloadable Epic Games Launcher (its installation, performance, and features).
+  
+-** Library Management:**
+  - Viewing and managing owned games is launcher-exclusive.
   
 - **Developer/Creator Portal:**
   - All sections related to the Unreal Engine, creator portals, and game development.
@@ -113,5 +113,7 @@ This manual testing project (Portfolio Project 1) will be considered complete wh
 ## 6.0. Results Summary
 
 ## 7.0. Learning Reflection
+
+Mid-planning, I audited Epic's web client and removed Library Management, which taught me the importance of ongoing requirements validation. This ensured a feasible, web-centric suite while opening doors to launcher testing in a follow-up project
 
 
