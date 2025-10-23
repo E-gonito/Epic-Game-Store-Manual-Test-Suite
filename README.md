@@ -18,7 +18,7 @@
 This README contains the test plan for a comprehensive manual test suite of the [Epic Game Store web client](https://store.epicgames.com/en-US), a complex, real-world video game digital distribution service. The objective is to verify the functionality of the web client's core user-facing features and professionally document the whole process. 
 
 ### 1.1. Project Deliverables
-- Test Case Suite: 
+- Test Case Suite: [Google Doc](https://docs.google.com/document/d/1CsofyqlI14Gm3ax4vr-Kgai7sXDXK0kzQkvHo1TPodE/edit?usp=sharing)
 - Defect Management Board: [Jira Board](https://errolgonito.atlassian.net/jira/software/projects/EGS/boards/1?atlOrigin=eyJpIjoiNzRkZWQ1MWJmZDBhNGRiN2JkZjIzOTVhNWIxOWVkZTciLCJwIjoiaiJ9) 
 - API Test Collection: 
 
