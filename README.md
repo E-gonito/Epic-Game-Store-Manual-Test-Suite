@@ -54,19 +54,19 @@ This test plan covers the following features on the Epic Game Store website:
 This plan will not cover the following:
 
 - **Paid Transactions:**
-  - The final step of any checkout flow that requires a real payment instrument is explicitly out-of-scope to avoid incurring costs.
+  - The final step of any checkout flow that requires real payment to avoid incurring costs.
 
 - **Native Desktop Client:**
-  - The downloadable Epic Games Launcher, its installation, performance, and features are not under test.
+  - The downloadable Epic Games Launcher (its installation, performance, and features).
   
 - **Developer/Creator Portal:**
-  - All sections related to the Unreal Engine, creator portals, and game development are out-of-scope.
+  - All sections related to the Unreal Engine, creator portals, and game development.
 
 - **Specific Game Content:**
-  - In-game functionality and community/news sections are not part of this test.
+  - In-game functionality and community/news sections.
 
 - **Non-Functional Testing:**
-  - All forms of non-functional testing, including load, stress, performance, and backend server testing, are out-of-scope.
+  - All forms of non-functional testing, including load, stress, performance, and backend server testing.
 
 ## 3.0. Objectives
 
