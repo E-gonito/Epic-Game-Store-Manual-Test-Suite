@@ -57,7 +57,7 @@ This plan will not cover the following:
 - **Native Desktop Client:**
   - The downloadable Epic Games Launcher (its installation, performance, and features).
   
--** Library Management:**
+- **Library Management:**
   - Viewing and managing owned games is launcher-exclusive.
   
 - **Developer/Creator Portal:**
