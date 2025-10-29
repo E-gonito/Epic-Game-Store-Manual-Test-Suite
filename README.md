@@ -11,8 +11,8 @@
 3. [Objectives](#30-objectives)
 4. [Test Strategy](#40-test-strategy)
 5. [Entry & Exit Criteria](#50-entry--exit-criteria)
-6. [Results Summary](#60-results-summary)
-7. [Learning Reflection](#70-learning-reflection)
+7. [Results Summary](#60-results-summary)
+8. [Learning Reflection](#70-learning-reflection)
 
 ## 1.0. Introduction
 This README contains the test plan for a comprehensive manual test suite of the [Epic Game Store web client](https://store.epicgames.com/en-US), a complex, real-world video game digital distribution service. The objective is to verify the functionality of the web client's core user-facing features and professionally document the whole process. 
@@ -92,6 +92,9 @@ This project will employ a hybrid testing approach:
 - **Jira**: Used as the primary tool for defect management, including writing, tracking, and prioritising all bug reports.
 
 - **Postman:** Used to conduct foundational API validation by inspecting GET requests to validate data fetched by the storefront.
+
+### 4.3. Prioritisation Strategy
+The project will employ a Risk-based prioritsation strategy. Test cases identified during the risk analysis to cover the highest risk will be tested and priortised first. Tests will be broken down into 3 categories, "High", "Medium" and "Low". All test cases labelled as "High" must be executed and pass as part of the test cycle.
 
 ## 5.0. Entry & Exit Criteria  
 
