@@ -12,8 +12,10 @@
 4. [Test Strategy](#40-test-strategy)
 5. [Entry & Exit Criteria](#50-entry--exit-criteria)
 6. [Product Risk Analysis](#60-product-risk-analysis)
-7. [Results Summary](#70-results-summary)
-8. [Learning Reflection](#80-learning-reflection)
+7. [Test Environment & Configuration Management](#70-test-environment-&-configuration-management)
+8. [Defect Management Process](#80-defect-management-process)
+9. [Results Summary](#90-results-summary)
+10. [Learning Reflection](#100-learning-reflection)
 
 ## 1.0. Introduction
 This README contains the test plan for a comprehensive manual test suite of the [Epic Game Store web client](https://store.epicgames.com/en-US), a complex, real-world video game digital distribution service. The objective is to verify the functionality of the web client's core user-facing features and professionally document the whole process. 
@@ -129,9 +131,48 @@ This test plan is guided by a risk-based strategy. The following table identifie
 |Wishlist |User adds a game to wishlist, but game does not save |Medium |Medium |Medium Risk |P2 (High) |Test adding and removing products to wishlist, and check for persistence before and after logging in |
 |Purchasing Product |User with valid payment option is denied |Medium |High |High Risk |P1 (Critical) |Test the E2E flow. Verify all checkout page elements load correctly and payment options are displayed. |
 
-## 7.0. Results Summary
+## 7.0. Test Environment & Configuration Management
 
-## 8.0. Learning Reflection
+### 7.1. Test Environment
+All manual test execution will be performed against the live production environment of the Epic Game Store.
+
+- **URL:** `https://store.epicgames.com/`
+- **Target Browsers:**
+    - Google Chrome (latest stable version)
+    - Mozilla Firefox (latest stable version)
+- **Screen Resolution:** 1920x1080
+- **Test Accounts:** One valid user account will be used to test persistence and user-specific data.
+
+### 7.2. Configuration Management
+To ensure traceability and reproducibility, all testware is version-controlled:
+
+- **Test Plan:** This README, Versioned in this GitHub repository.
+- **Test Cases:** Versioned in this GitHub repository in the `/test-cases` folder.
+- **Defect Reports:** Managed and versioned by the [Jira Project Board](https://errolgonito.atlassian.net/jira/software/projects/EGS/boards/1).
+- **API Collection:** Versioned as a JSON file in this repository and as a shared Postman collection.
+
+## 8.0. Defect Management Process
+
+### 8.1. Defect Workflow
+All defects will be logged in the [Jira Project Board](https://errolgonito.atlassian.net/jira/software/projects/EGS/boards/1) and will follow this simple workflow:
+
+1.  **To Do:** A new bug is identified and reported. It has not been reviewed.
+2.  **In Progress (Mock Triage):** The bug has been reviewed, confirmed as a valid defect, and is ready for a developer (hypothetically).
+3.  **Done (Closed):** The bug has been (hypothetically) fixed and verified, or has been closed as `Won't Fix`, `Duplicate`, or `Not a Bug`.
+
+### 8.2. Triage Definitions (Severity vs. Priority)
+To triage defects professionally, this project will use the following standard definitions:
+
+| **Severity** (Impact on the system) | **Priority** (Urgency to fix) |
+| :--- | :--- |
+| **S1 (Critical):** Blocks core functionality; no workaround. | **P1 (Urgent):** Must be fixed immediately. |
+| **S2 (High):** Major functionality impacted; difficult workaround exists. | **P2 (High):** Must be fixed for the next release. |
+| **S3 (Medium):** Minor functionality impacted; easy workaround exists. | **P3 (Medium):** Fix if time allows. |
+| **S4 (Low):** Cosmetic or UI issue. | **P4 (Low):** Fix at a later date. |
+
+## 9.0. Results Summary
+
+## 10.0. Learning Reflection
 
 Mid-planning, I audited Epic's web client and removed Library Management, which taught me the importance of ongoing requirements validation. This ensured a feasible, web-centric suite while opening doors to launcher testing in a follow-up project
 
