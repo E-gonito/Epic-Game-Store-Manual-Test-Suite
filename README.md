@@ -11,8 +11,9 @@
 3. [Objectives](#30-objectives)
 4. [Test Strategy](#40-test-strategy)
 5. [Entry & Exit Criteria](#50-entry--exit-criteria)
-7. [Results Summary](#60-results-summary)
-8. [Learning Reflection](#70-learning-reflection)
+6. [Product Risk Analysis](#60-product-risk-analysis)
+7. [Results Summary](#70-results-summary)
+8. [Learning Reflection](#80-learning-reflection)
 
 ## 1.0. Introduction
 This README contains the test plan for a comprehensive manual test suite of the [Epic Game Store web client](https://store.epicgames.com/en-US), a complex, real-world video game digital distribution service. The objective is to verify the functionality of the web client's core user-facing features and professionally document the whole process. 
@@ -114,9 +115,23 @@ This manual testing project (Portfolio Project 1) will be considered complete wh
 
 - There are no open defects with a 'Critical' priority.
 
-## 6.0. Results Summary
+## 6.0. Product Risk Analysis
 
-## 7.0. Learning Reflection
+## Product Risk Analysis
+
+This test plan is guided by a risk-based strategy. The following table identifies potential product risks, assesses their risk level, and defines the mitigation strategy for each.
+
+| Risk Area | Potential Risk | Likelihood | Impact | Risk Level | Test Priority | Mitigation Strategy |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+|User Authentication |User with Valid Credentials is denied authentication |Medium |High |High Risk |P1 (Critical) |Design & execute positive/negative test cases |
+|Game Search |User searches for a valid game and it does not appear in the results |Medium |High |High Risk |P1 (Critical) |Create Test cases that search with exact name and spelling errors.  |
+|Search Filtering |User applies filters and results return the wrong games |Medium |Medium |Medium Risk |P2 (High) |Create Tests covering multiple filters at the same time and idependantly, then verify correct games are being returned |
+|Wishlist |User adds a game to wishlist, but game does not save |Medium |Medium |Medium Risk |P2 (High) |Test adding and removing products to wishlist, and check for persistence before and after logging in |
+|Purchasing Product |User with valid payment option is denied |Medium |High |High Risk |P1 (Critical) |Test the E2E flow. Verify all checkout page elements load correctly and payment options are displayed. |
+
+## 7.0. Results Summary
+
+## 8.0. Learning Reflection
 
 Mid-planning, I audited Epic's web client and removed Library Management, which taught me the importance of ongoing requirements validation. This ensured a feasible, web-centric suite while opening doors to launcher testing in a follow-up project
 
