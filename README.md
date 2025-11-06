@@ -15,7 +15,7 @@
 7. [Test Environment & Configuration Management](#70-test-environment-&-configuration-management)
 8. [Defect Management Process](#80-defect-management-process)
 9. [Results Summary](#90-results-summary)
-10. [Learning Reflection](#100-learning-reflection)
+
 
 ## 1.0. Introduction
 This README contains the test plan for a comprehensive manual test suite of the [Epic Game Store web client](https://store.epicgames.com/en-US), a complex, real-world video game digital distribution service. The objective is to verify the functionality of the web client's core user-facing features and professionally document the whole process. 
@@ -172,8 +172,6 @@ To triage defects professionally, this project will use the following standard d
 
 ## 9.0. Results Summary
 
-## 10.0. Learning Reflection
 
-Mid-planning, I audited Epic's web client and removed Library Management, which taught me the importance of ongoing requirements validation. This ensured a feasible, web-centric suite while opening doors to launcher testing in a follow-up project
 
 
